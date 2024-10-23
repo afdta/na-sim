@@ -1,0 +1,45 @@
+
+
+body{
+    padding:0px;
+}
+
+.iframe-content{
+    width:100%;
+    max-width:950px;
+    margin:15px auto;   
+}
+
+p, select {
+    font-family: "Barlow", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:16px;
+}
+
+select{
+    display:inline-block;
+    padding:15px 10px;
+    min-width:320px;
+}
+
+h2 {
+    font-family: "Barlow", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:2em;
+    margin-bottom:10px;
+}
+
+.v-tooltip{
+    background-color: #ffffff;
+    border:2px solid orange;
+    border-radius:5px;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding:5px 10px;
+}
+
+#na-titles > *, #na-control{
+    text-align:center;
+}

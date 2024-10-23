@@ -1,7 +1,12 @@
 {
   "dependencies": {
     "@rollup/plugin-node-resolve": "^15.3.0",
+    "d3": "^7.9.0",
     "rollup": "^4.24.0",
     "vega": "^5.30.0"
-  }
+  },
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "type":"module"
 }
